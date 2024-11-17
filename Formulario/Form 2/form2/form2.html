@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Um</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <article>
+
+        
+            <title>Meu aniversário, venha descobrir</title>
+
+            <h1>Vamos salvar o seu aniversário</h1>
+            <div id="formulario">
+                <form action="saveName">
+                    <label for="fname">Digite o seu Nome</label>
+                    <input type="text" id="fname" placeholder="Digite o seu nome">
+                </form>
+
+                <form action="saveDate">
+                    <label for="bday">Digite a data do seu aniversário</label>
+                    <input type="text" id="bday" placeholder="Exemplo: 25/11/1978">
+                    <div id="erro" class="erro"></div>
+                </form>
+
+                <form action="submit">
+                    <input type="submit" name="save" value="Mandar" id="submit">
+                </form>   
+            </div>
+        </article>
+
+
+        <script src="form2.js"></script>
+    </body>
+    </html>

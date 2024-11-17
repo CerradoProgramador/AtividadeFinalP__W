@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Três</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <article>
+            <div class="baloes">
+                <span>🎈</span>
+                <span>🎈</span>
+                <span>🎈</span>
+                <span>🎈</span>
+            </div>
+        
+            <h1 id="mensagem">Vamos salvar o seu aniversário!</h1>
+        
+            <div id="formulario">
+                <form id="form" action="saveName">
+                    <label for="fname">Digite o seu Nome</label>
+                    <input type="text" id="fname" placeholder="Digite o seu nome">
+                </form>
+        
+                <form id="formDate" action="saveDate">
+                    <label for="bday">Digite a data do seu aniversário</label>
+                    <input type="text" id="bday" placeholder="Exemplo: 25/11/1978">
+                    <div id="erro" class="erro"></div>
+                </form>
+        
+                <form id="formSubmit" action="submit">
+                    <input type="submit" name="save" value="Mandar" id="submit">
+                </form>   
+            </div>
+        
+   
+            <table id="tabela-dados">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Data de Aniversário</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </article>
+        
+
+        
+
+        <script src="form3.js"></script>
+    </body>
+    </html>
