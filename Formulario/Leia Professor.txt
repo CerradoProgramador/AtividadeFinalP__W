@@ -1,0 +1,3 @@
+Olá, professor.
+O total são 7 desafios, porém no 2 desafio quando foi falado que tinha que desenvolver uma tabela com método Crud nós pensamos que tina que ser feito neste desafio, e fizemos.
+Outro desafio que não vai ter é a modificação do CSS que foi modificado nas versões do formulário um a antiga para a nova que é a formulários seguintes.
